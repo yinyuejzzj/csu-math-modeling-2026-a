@@ -1,0 +1,466 @@
+{
+  "q1_q2": {
+    "N": 40001,
+    "fs": 100.00000000009095,
+    "duration": 400.0,
+    "mean": 4.467021990674166e-05,
+    "std": 0.10306275348304482,
+    "f_fft_bin": 1.9999500012517875,
+    "f_refined": 2.0000016216025447,
+    "fft_peak_over_median": 1782.0357153616658,
+    "welch_L": 8192,
+    "welch_peak": 2.001953125,
+    "welch_peak_over_median": 176.6604975537829,
+    "global_bins_0_20": 8000,
+    "global_threshold_over_mean_pfa_0_01": 13.587346675611274,
+    "observed_peak_over_mean_0_20": 1072.0263707717315,
+    "welch_validation_segments": 8,
+    "segment_detection_rate": 1.0,
+    "fft_noise_floor_cv": 1.0042805449358008,
+    "welch_noise_floor_cv": 0.3606401732821828,
+    "amplitude": 0.035190318859625494,
+    "phase": 1.5735436736788893,
+    "rmse_residual": 0.1000136885761551,
+    "amplitude_ci95_conditional": [
+      0.033804831842862725,
+      0.03658852942327702
+    ],
+    "phase_ci95_conditional": [
+      1.5337411172789508,
+      1.6132858840191135
+    ],
+    "residual_max_abs_acf_lag_1_20": 0.009391068904846017,
+    "residual_jarque_bera_stat": 0.8030921347213196,
+    "residual_jarque_bera_p": 0.6692844868196965,
+    "split_first_amplitude": 0.035852824950305444,
+    "split_second_amplitude": 0.034533714062614206,
+    "split_first_phase": 1.560906370779233,
+    "split_second_phase": 1.586663707414352,
+    "truth_simulation": {
+      "n": 500,
+      "noise_source": "centered attachment residual resampling",
+      "frequency_abs_error_hz": {
+        "median": 5.1658924739017564e-05,
+        "mean": 5.167111643382283e-05,
+        "q025": 4.966206908291193e-05,
+        "q975": 5.3805821415847664e-05
+      },
+      "amplitude_relative_error": {
+        "median": 0.013768136778476173,
+        "mean": 0.01602300271209693,
+        "q025": 0.00051249326490713,
+        "q975": 0.04406554075256056
+      },
+      "phase_abs_error_rad": {
+        "median": 0.06526857329754676,
+        "mean": 0.06489824872130302,
+        "q025": 0.025662814210881114,
+        "q975": 0.10414300929816928
+      },
+      "waveform_nrmse": {
+        "median": 0.044745867170263354,
+        "mean": 0.04651189575976199,
+        "q025": 0.037620507416167404,
+        "q975": 0.06437800921304271
+      }
+    }
+  },
+  "q3": {
+    "N": 40001,
+    "mean": -0.0003382025299250281,
+    "std": 0.10642101493245687,
+    "candidate_count_5x_median": 629,
+    "M_opt": 4,
+    "delta_BIC_5_minus_4": 13.36298447891022,
+    "bootstrap_order_n": 500,
+    "bootstrap_order_counts": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 500,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0
+    },
+    "bootstrap_order_m4_proportion": 1.0,
+    "parameters": [
+      {
+        "frequency": 3.9999981648495253,
+        "sin_coef": 0.0037807124106264372,
+        "cos_coef": 0.018725034963748687,
+        "amplitude": 0.01910289822842271,
+        "phase": 1.3715679527840003
+      },
+      {
+        "frequency": 7.999928727588913,
+        "sin_coef": -0.02460103156799722,
+        "cos_coef": -0.003777593998978592,
+        "amplitude": 0.024889374653267505,
+        "phase": -2.98922845072949
+      },
+      {
+        "frequency": 13.000088597769903,
+        "sin_coef": -0.0058133989477073085,
+        "cos_coef": -0.008747373571468814,
+        "amplitude": 0.010502959188916023,
+        "phase": -2.157358428102454
+      },
+      {
+        "frequency": 14.00002415788979,
+        "sin_coef": 0.039803538922057,
+        "cos_coef": 0.004460929524307839,
+        "amplitude": 0.04005273527414261,
+        "phase": 0.11160796161318653
+      }
+    ],
+    "rmse": 0.09988044721346126,
+    "crlb_frequency_std_unknown_phase_hz": 3.893752227268036e-05,
+    "resolution": [
+      {
+        "delta_f": 0.0025,
+        "success_rate": 0.066,
+        "success_wilson95_low": 0.04737852635977387,
+        "success_wilson95_high": 0.09123940116085351,
+        "mean_amplitude_relative_error": 0.3615624407934467,
+        "n_mc": 500
+      },
+      {
+        "delta_f": 0.005,
+        "success_rate": 1.0,
+        "success_wilson95_low": 0.9923756595384479,
+        "success_wilson95_high": 1.0,
+        "mean_amplitude_relative_error": 0.078219156174625,
+        "n_mc": 500
+      },
+      {
+        "delta_f": 0.0075,
+        "success_rate": 1.0,
+        "success_wilson95_low": 0.9923756595384479,
+        "success_wilson95_high": 1.0,
+        "mean_amplitude_relative_error": 0.05994415721359357,
+        "n_mc": 500
+      },
+      {
+        "delta_f": 0.01,
+        "success_rate": 1.0,
+        "success_wilson95_low": 0.9923756595384479,
+        "success_wilson95_high": 1.0,
+        "mean_amplitude_relative_error": 0.053263419875197004,
+        "n_mc": 500
+      },
+      {
+        "delta_f": 0.02,
+        "success_rate": 1.0,
+        "success_wilson95_low": 0.9923756595384479,
+        "success_wilson95_high": 1.0,
+        "mean_amplitude_relative_error": 0.04718572608737317,
+        "n_mc": 500
+      },
+      {
+        "delta_f": 0.05,
+        "success_rate": 1.0,
+        "success_wilson95_low": 0.9923756595384479,
+        "success_wilson95_high": 1.0,
+        "mean_amplitude_relative_error": 0.045730924409590146,
+        "n_mc": 500
+      },
+      {
+        "delta_f": 0.1,
+        "success_rate": 1.0,
+        "success_wilson95_low": 0.9923756595384479,
+        "success_wilson95_high": 1.0,
+        "mean_amplitude_relative_error": 0.04604202033792345,
+        "n_mc": 500
+      },
+      {
+        "delta_f": 0.2,
+        "success_rate": 1.0,
+        "success_wilson95_low": 0.9923756595384479,
+        "success_wilson95_high": 1.0,
+        "mean_amplitude_relative_error": 0.044372819438480336,
+        "n_mc": 500
+      },
+      {
+        "delta_f": 0.5,
+        "success_rate": 1.0,
+        "success_wilson95_low": 0.9923756595384479,
+        "success_wilson95_high": 1.0,
+        "mean_amplitude_relative_error": 0.04556132293942492,
+        "n_mc": 500
+      }
+    ]
+  },
+  "q4": {
+    "scenario_notice": "4m×2m geometry, source locations and spatial noise field are illustrative assumptions, not problem-given data.",
+    "width": 4.0,
+    "height": 2.0,
+    "source_positions": [
+      [
+        0.5,
+        1.0
+      ],
+      [
+        1.5,
+        0.3
+      ],
+      [
+        2.5,
+        1.7
+      ],
+      [
+        3.5,
+        1.0
+      ]
+    ],
+    "source_frequencies": [
+      4.0,
+      8.0,
+      13.0,
+      14.0
+    ],
+    "source_amplitudes_from_q3": [
+      0.01910289822842271,
+      0.024889374653267505,
+      0.010502959188916023,
+      0.04005273527414261
+    ],
+    "candidate_count": 105,
+    "combination_count_q3": 187460,
+    "alpha": 0.5,
+    "noise_model": "sigma(p)=sigma0*[1+0.35 exp(-||p-(2,1)||^2/(2*0.6^2))]",
+    "sigma0": 0.1000136885761551,
+    "observation_time_primary_s": 4.0,
+    "system_pfa": 0.01,
+    "per_source_pfa_bonferroni": 0.0025,
+    "per_source_pfa_sidak_independence_reference": 0.002509430066318874,
+    "layouts": [
+      {
+        "q": 1,
+        "ids": [
+          50
+        ],
+        "positions": [
+          [
+            2.0,
+            0.5
+          ]
+        ],
+        "rho_by_source": [
+          0.0024121771259727693,
+          0.011615656863373288,
+          0.0009658975609221257,
+          0.010604129707711645
+        ],
+        "rho_min": 0.0009658975609221257,
+        "snr_min_db": -30.150689306086406,
+        "pd_by_source": [
+          0.01344867309741818,
+          0.13121185103268493,
+          0.005968325253664952,
+          0.1126458751615446
+        ],
+        "pd_min": 0.005968325253664952
+      },
+      {
+        "q": 2,
+        "ids": [
+          23,
+          81
+        ],
+        "positions": [
+          [
+            1.0,
+            0.75
+          ],
+          [
+            3.0,
+            1.25
+          ]
+        ],
+        "rho_by_source": [
+          0.010209262320812209,
+          0.018044958768856027,
+          0.0032133000429978263,
+          0.04488075966904265
+        ],
+        "rho_min": 0.0032133000429978263,
+        "snr_min_db": -24.930487201582956,
+        "pd_by_source": [
+          0.06542881592653077,
+          0.1817087444399348,
+          0.012096166467796935,
+          0.7088067779895278
+        ],
+        "pd_min": 0.012096166467796935
+      },
+      {
+        "q": 3,
+        "ids": [
+          15,
+          52,
+          89
+        ],
+        "positions": [
+          [
+            0.75,
+            0.5
+          ],
+          [
+            2.0,
+            1.0
+          ],
+          [
+            3.25,
+            1.5
+          ]
+        ],
+        "rho_by_source": [
+          0.013152353779773165,
+          0.02417389642969727,
+          0.004304691600129141,
+          0.05781883259761937
+        ],
+        "rho_min": 0.004304691600129141,
+        "snr_min_db": -23.660579571394326,
+        "pd_by_source": [
+          0.07532863090924648,
+          0.23561915679613255,
+          0.013153350641967765,
+          0.802502549384554
+        ],
+        "pd_min": 0.013153350641967765
+      }
+    ],
+    "layouts_scenario_specific": [
+      {
+        "q": 1,
+        "ids": [
+          55
+        ],
+        "positions": [
+          [
+            2.0,
+            1.75
+          ]
+        ],
+        "rho_by_source": [
+          0.002532903989339054,
+          0.004962120359741,
+          0.0024782623069081033,
+          0.011134854961904986
+        ],
+        "rho_min": 0.0024782623069081033,
+        "snr_min_db": -26.0585272846286,
+        "pd_by_source": [
+          0.014203719807499272,
+          0.03389126971923891,
+          0.013859426267133065,
+          0.12223813184936408
+        ],
+        "pd_min": 0.013859426267133065
+      },
+      {
+        "q": 2,
+        "ids": [
+          41,
+          69
+        ],
+        "positions": [
+          [
+            1.5,
+            1.75
+          ],
+          [
+            2.5,
+            1.75
+          ]
+        ],
+        "rho_by_source": [
+          0.00595573782127626,
+          0.010153919869386338,
+          0.005867195470958887,
+          0.026181914952231565
+        ],
+        "rho_min": 0.005867195470958887,
+        "snr_min_db": -22.315694426265736,
+        "pd_by_source": [
+          0.027230393841535954,
+          0.06481290916095847,
+          0.026629891552703108,
+          0.34517517545944765
+        ],
+        "pd_min": 0.026629891552703108
+      },
+      {
+        "q": 3,
+        "ids": [
+          33,
+          69,
+          76
+        ],
+        "positions": [
+          [
+            1.25,
+            1.5
+          ],
+          [
+            2.5,
+            1.75
+          ],
+          [
+            2.75,
+            1.75
+          ]
+        ],
+        "rho_by_source": [
+          0.009192193401528945,
+          0.015589640733639765,
+          0.009196061920982683,
+          0.049092257132326705
+        ],
+        "rho_min": 0.009192193401528945,
+        "snr_min_db": -20.365808467726424,
+        "pd_by_source": [
+          0.039896519263911766,
+          0.10345060403299414,
+          0.03992491148179655,
+          0.6899252331852008
+        ],
+        "pd_min": 0.039896519263911766
+      }
+    ],
+    "layout_policy": "robust design uses weakest amplitude, alpha=0.8, noise scale=1.2 and g_min=0.85 at every potential source position",
+    "permutation_worst_pd_for_baseline_q3_layout": 0.011962596521169835,
+    "permutation_best_pd_for_baseline_q3_layout": 0.013153350641967765,
+    "empirical_pfa": 0.00995,
+    "empirical_pd_by_source": [
+      0.07288,
+      0.23364,
+      0.01292,
+      0.80161
+    ],
+    "time_to_target_pd_s": {
+      "1": {
+        "0.5": 113.54500000000002,
+        "0.9": 220.70500000000004
+      },
+      "2": {
+        "0.5": 41.665000000000006,
+        "0.9": 77.755
+      },
+      "3": {
+        "0.5": 35.315,
+        "0.9": 64.385
+      }
+    },
+    "measurement_sensitivity_model": "baseline g_ij=1; robustness test g_ij independently varies in [0.85,1.15]",
+    "measurement_sensitivity_pd_quantiles_5_50_95": [
+      0.010550467631847837,
+      0.013224429975138442,
+      0.016499094888904758
+    ]
+  }
+}

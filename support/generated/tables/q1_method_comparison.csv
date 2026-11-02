@@ -1,0 +1,4 @@
+method,L,delta_f,segments,peak_over_median,noise_floor_cv,segment_detection_rate,global_pfa_control
+STFT,256,0.390625,311,6.212023949834646,,,否
+全段FFT,40001,0.002499937501562461,1,1782.0357153616658,1.0042805449358008,,否
+Welch,8192,0.01220703125,8,176.6604975537829,0.3606401732821828,1.0,与最大谱线检验联合后为是
